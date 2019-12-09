@@ -14,3 +14,11 @@ RUN wget https://www.ssisc.org/fftss/dl/fftss-3.0-20071031.tar.gz \
  && ./configure \
  && make \
  && sudo make install
+
+
+# Install tokyocabinet lib
+RUN git clone git://github.com/etrepum/tokyo-cabinet.git \
+&& cd tokyocabinet \
+&& ./configure \
+&& make \
+&& sudo make install
