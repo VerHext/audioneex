@@ -18,7 +18,7 @@ RUN wget https://www.ssisc.org/fftss/dl/fftss-3.0-20071031.tar.gz \
 
 # Install tokyocabinet lib
 RUN git clone https://github.com/hthetiot/Tokyo-Cabinet.git \
-&& cd tokyo-cabinet \
+&& cd Tokyo-Cabinet \
 && ./configure \
 && make \
 && sudo make install
