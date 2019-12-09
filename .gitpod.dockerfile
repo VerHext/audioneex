@@ -13,4 +13,4 @@ RUN wget https://www.ssisc.org/fftss/dl/fftss-3.0-20071031.tar.gz \
  && cd fftss-3.0-20071031/ \
  && ./configure \
  && make \
- && make install
+ && sudo make install
